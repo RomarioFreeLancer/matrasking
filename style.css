@@ -1,0 +1,678 @@
+html,body{
+    height: 110%;
+    margin: 0;
+    background: rgb(194, 188, 177) no-repeat fixed; 
+
+}
+
+a{
+    cursor: crosshair;
+    text-decoration: none;
+    color: black
+}
+
+.wrapper{ 
+    max-width: 1300px;
+    margin: 0 auto;
+    width: 1300px;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+  
+
+}
+
+
+
+.header{
+    height: 700px;
+    top:-70px;
+    background: linear-gradient(to left, rgba(255,255,255,0.2) 100%,rgba(255,255,255,0) 100%)no-repeat fixed,
+    url(1.jpg) no-repeat top fixed;
+    background-size: 100%;
+    background-attachment: scroll;
+    position: relative;
+
+    border-radius: 50% / 10%;
+}
+
+.fixed{
+    position: fixed;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 23;
+}
+.backgound{
+    max-width: 1300px;
+   margin-top: 70px;
+   min-width: 1300px;
+   display: flex;
+   justify-content: space-between;
+
+
+        
+}
+
+.logo{
+    color: white;
+    margin-left: 70px;
+    height: 70px;
+    width: 200px;
+    font-size: 30px;
+    line-height: 60px ;
+}
+
+.phone{
+    color: white;
+    width: 400px;
+    margin-right:40px ;
+    font-size:30px;
+    line-height: 60px ;
+}
+
+.head {
+
+    margin: 0 30px;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 900;
+    font-size: 17px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+}
+
+
+.about1, .about2, .about3, .about4, .about4, .about5, .about6{
+    color:white;
+    width: 13%;
+}
+
+.about1:hover{
+    background: rgba(255,255,255,0.3);
+    
+}
+
+.about2:hover{
+    background: rgba(255,255,255,0.3);
+    
+}
+
+.about3:hover{
+    background: rgba(255,255,255,0.3);
+    
+}
+
+.about4:hover{
+    background: rgba(255,255,255,0.3);
+    
+}
+
+
+.about5:hover{
+    background: rgba(255,255,255,0.3);
+    
+}
+
+
+.about6:hover{
+    background: rgba(255,255,255,0.3);
+    
+}
+
+.matras{
+    font-weight: bold;
+    padding:150px 0 50px;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+.actcia{
+    color: rgb(227, 69, 69);
+    font-size: 35px;
+    position: relative;
+    left: 25%;
+    border-bottom: 4px solid rgb(227, 69, 69);
+    width: 106px;
+    font-weight: bold;
+}   
+
+.freeshiping{
+    width: 300px;
+    background-color: rgba(255,255,255,0.5);
+    color: black;
+    font-size: 25px;
+    left: 17%;
+    position: relative;
+    text-align: center;
+    border-radius: 8%;
+}
+
+
+.wrapper{
+    background:white;
+}
+
+
+.main {
+    flex: 1 1 1; 
+    font-size: 28px;
+    text-align: center;
+    color: white;
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+}
+
+span{
+    font-size: 60px;
+    font-weight: bold;
+}
+.first {  
+    animation: 5s swimming linear infinite 0s;
+    height: 200px;
+    width: 200px;
+    background: rgb(97, 206, 249);
+    border-radius: 50%;
+    position: relative;
+    top: -50px;
+    
+
+}
+
+@keyframes swimming{
+    0% {
+		margin-top: 0px;
+	}
+	25%{
+		margin-top: 50px;
+	}
+    50%{
+		margin-top: 0px;
+	}
+    75%{
+		margin-top: -50px;
+	}
+	100% {
+		margin-top: 0px;
+	}
+}
+.second {
+    animation: 5s swimming linear infinite 1s;
+    height: 200px;
+    width: 200px;
+    background: rgb(97, 206, 249);
+    border-radius: 50%;
+}
+.third { 
+    animation: 5s swimming linear infinite 2s;
+    height: 200px;
+    width: 200px;
+    background: rgb(97, 206, 249);
+    border-radius: 50%;
+}
+.fourths{ 
+    position: relative;
+    top: -50px;
+    animation: 5s swimming linear infinite 3s;
+    height: 200px;
+    width: 200px;
+    background: rgb(97, 206, 249);
+    border-radius: 50%;
+
+}
+
+.label{
+    box-shadow: 10px 15px 15px gray;
+    background:rgba(255, 255, 255, 0.5);
+    padding: 0 30px;
+    width: 230px;
+    position: relative;
+    bottom: 20%;
+    left: 60%;
+}
+
+.order{
+    font-size:30px;
+}
+
+
+.text-field__input, .uber {
+    padding-left: 20px;
+
+    width: 80%;
+    height:30px;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    margin: 10px 0;
+    background-color: rgb(224, 220, 220);
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.button {
+    color: white;
+    cursor: pointer;
+    background: linear-gradient(-50deg, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0) 60%) rgba(208, 218, 133, 0.9);
+    background-size: 200% 100%;
+    background-position-x: 130%;
+    animation: 4s loader ease-in-out infinite 2s;
+    border: none;
+    padding: 0;
+    color: whitesmoke;
+    margin: 0 10px;
+    font-size: 20px;
+    margin: 10% 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 15px;
+
+    width: 95%;
+    height: 50px;
+    transition: background 0.5s linear, color 0.5s linear, transform 0.5s linear;
+}
+
+.button a{
+    color: orange;
+    text-transform: uppercase;
+}
+
+.button:hover{
+	animation: pulsate 1s ease-in-out;
+}
+
+@keyframes loader{
+	0% {
+		background-position-x: 120%;
+	}
+	15%{
+		background-position: -30%;
+	}
+	100% {
+		background-position-x: -30%;
+	}
+}
+
+@keyframes pulsate{
+	0%{
+		box-shadow:
+		0 0 25px rgb(184, 194, 115),
+		0 0 50px rgb(134, 134, 70);
+	}
+}
+
+.sec{
+    
+    height: 100px;
+    width: 100px;
+    background-color: rgb(174, 217, 245);
+    border-radius: 50%;
+    position: relative;
+    top: 40px;
+}
+
+.sec:nth-child(4n){
+    animation: 5s swimming linear infinite 1.5s;
+    position: relative;
+    top:70px
+}
+
+.sec:nth-child(2){
+    animation: 5s swimming linear infinite 0.5s;
+}
+.sec:nth-child(3n){
+    animation: 5s swimming linear infinite 2.5s;
+}
+
+.classic{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 150px;
+    text-align: center;
+    text-decoration-skip-ink: none;
+    text-decoration: underline;
+}
+
+.news{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration-skip-ink: none;
+    text-decoration: underline;
+
+}
+.container{
+    margin: 70px 50px 70px 50px;
+    grid-template-columns: 30% 30% 30%;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    justify-content: center;
+    grid-auto-rows: minmax(500px, auto);
+    display: grid;  
+}
+
+.containernew{
+    margin: 70px 50px 70px 50px;
+    grid-template-columns: 50% 50% ;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    justify-content: center;
+    grid-auto-rows: minmax(500px, auto);
+    display: grid;  
+}
+.item{
+box-shadow: 10px 15px 15px gray;
+   border: 2px solid rgba(11, 147, 244, 0.647);
+   border-radius: 10px;
+}
+
+
+.item:hover{
+    transition: 0.5s;
+    transform:translateY(9px);
+    box-shadow: 1px 1px 30px gray, -1px -1px 30px gray;
+    border: none;
+}
+
+.classicuniversal{
+    
+    position: relative;
+    top: 100px;
+    height: 50%;
+    background: url(jpeg/классик\ универсал.png) no-repeat scroll;
+    background-size: 115%;
+    background-position: center;
+}
+
+.name{
+    font-size: 25px;
+    position: relative;
+    bottom: 200px;
+    text-align: center;
+    content: ' Матрасы "Классик" ';
+    color:rgba(11, 147, 244, 0.647);
+
+ 
+}
+
+.bio{
+    font-weight: bold;
+    position: relative;
+    top:80px;
+    left: 10px;
+}
+
+.orders{
+    position: relative;
+    top:40px;
+    left: 170px;
+    background-color: rgb(194, 212, 79);
+    border-radius: 10px;
+    font-size: 30px;
+
+}
+
+.opacty{
+    text-align: center;
+    line-height: 500px;
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    height: 500px;
+    width: 360px;
+    z-index: 20;
+    background: rgba(0,0,0,0.5);
+    border-radius: 9px;
+    display: block;
+    opacity: 0;
+}
+
+.opacty:hover{
+    z-index: 20;
+    opacity: 0;
+}
+
+.comfort{
+    position: relative;
+    top: 100px;
+    height: 50%;
+    background: url(jpeg/комфорт.png) no-repeat scroll;
+    background-size: 115%;
+    background-position: center;
+    
+}
+
+.elit{
+    position: relative;
+    top: 100px;
+    height: 50%;
+    background: url(jpeg/элит.png) no-repeat scroll;
+    background-size: 100%;
+    background-position: center;
+}
+
+.topelit{
+    position: relative;
+    top: 100px;
+    height: 50%;
+    left: 10px;
+    background: url(jpeg/топэл.png) no-repeat scroll;
+    background-size: 110%;
+    background-position: center;
+}
+
+.premium{
+    position: relative;
+    top: 100px;
+    height: 50%;
+    left: 5px;
+    background: url(jpeg/премим.png) no-repeat scroll;
+    background-size: 105%;
+    background-position: center;
+
+}
+
+.exclusive{
+    position: relative;
+    top: 100px;
+    height: 50%;
+    left: 10px;
+    background: url(jpeg/эксклюзив.png) no-repeat scroll;
+    background-size: 100%;
+    background-position: center;
+}
+
+.foot{
+
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    left: 0;
+    background-color: #212529;
+}
+
+.baby{
+    position: relative;
+    top: 100px;
+    height: 50%;
+    left: 10px;
+    background: url(jpeg/Asteriks.png) no-repeat scroll;
+    background-size: 80%;
+    background-position: center;
+
+}
+
+.threeD{
+    position: relative;
+    top: 100px;
+    height: 50%;
+    left: 10px;
+    background: url(jpeg/3d.png) no-repeat scroll;
+    background-size: 80%;
+    background-position: center;
+
+}
+
+.anatomic{
+    position: relative;
+    top: 100px;
+    height: 50%;
+    left: 10px;
+    background: url(jpeg/anatomik.png) no-repeat scroll;
+    background-size: 80%;
+    background-position: center;
+
+
+}
+
+.memmory{
+    position: relative;
+    top: 100px;
+    height: 50%;
+    left: 10px;
+    background: url(jpeg/премиум.png) no-repeat scroll;
+    background-size: 80%;
+    background-position: center;
+
+
+}
+
+.sircle{
+    position: relative;
+    top: 100px;
+    height: 50%;
+    left: 10px;
+    background: url(jpeg/sircle.png) no-repeat scroll;
+    background-size: 45%;
+    background-position: center;
+
+}
+
+.item_55{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+}
+
+.bios{
+    width: 500px;
+    font-weight: bold;
+    position: relative;
+    top:80px;
+    left: 400px;
+
+}
+
+.orderss{
+    position: relative;
+    top:40px;
+    left: 720px;
+    background-color: rgb(194, 212, 79);
+    border-radius: 10px;
+    font-size: 30px;
+
+}
+
+.fit-picture {
+    width:120px;
+    position: relative;
+    left:-100px;
+    top: -55px;
+}
+
+
+.map{
+    width: 1300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 40px;
+    position: relative;
+    left: 100px;
+    padding: 50px 0 50px 0;
+    
+}
+
+
+
+.mapmap{
+
+    display: inline-block;
+    border: 2px solid gray;
+}
+
+.where{
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: ;
+}
+
+.contacts{
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 100px;
+}
+
+.phon{
+    padding-top: 30px;
+    font-size: 25px;
+    line-height: 1.3;
+}
+
+.adress{
+    font-size: 30px;
+}
+
+.who{
+    padding-bottom: 80px;
+    padding-left: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+   
+}
+
+.sert1{
+    background: url(jpeg/sert1.jpg) no-repeat scroll;
+    height: 400px;
+    background-size: 90%;
+}
+
+.sert2{
+    background: url(jpeg/sert2.jpg) no-repeat scroll;
+    height: 400px;
+    background-size: 90%;
+}
+.sert3{
+    background: url(jpeg/sert3.jpg) no-repeat scroll;
+    height: 400px;
+    background-size: 90%;
+}
+
+.sert4{
+    background: url(jpeg/sert4.jpg) no-repeat scroll;
+    height: 400px;
+    background-size: 90%;
+}
+
+.aboutus{
+    padding-bottom: 50px;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+}
